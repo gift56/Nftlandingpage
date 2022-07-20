@@ -39,4 +39,15 @@ const Nav = styled.nav`
       justify-content: space-between;
       align-items: center;
       margin: 0 2rem;
+      .toggle {
+           display: none;
+      }
+      .links {
+        display: flex;
+        height: 4rem;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        clip-path: polygon()
+      }
 `;
