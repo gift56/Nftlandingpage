@@ -32,8 +32,8 @@ const Home = () => {
                             <h5>Artwork</h5>
                         </div>
                         <div className="dataTab">
-                            <h2>40K</h2>
-                            <h5>Artwork</h5>
+                            <h2>12K</h2>
+                            <h5>Auction</h5>
                         </div>
                         <div className="dataTab">
                             <h2>40K</h2>
