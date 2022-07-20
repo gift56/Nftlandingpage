@@ -41,6 +41,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="image">
+                    <img src={Hero} alt="hero" />
+                </div>
             </div>
         </Section>
     )
