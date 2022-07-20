@@ -6,6 +6,12 @@ const Home = () => {
     return (
         <Section>
             <Navbar />
+            <div className="ellipse"></div>
+            <div className="container">
+                <div className="content">
+                    <h1>Explore Our Hero Text Digital NFT Market Place</h1>
+                </div>
+            </div>
         </Section>
     )
 }
