@@ -24,7 +24,9 @@ const Home = () => {
                     </p>
                     <div className="buttons">
                         <Buttons blue text="Explore Now" />
+                        <Buttons text="Create NFT" />
                     </div>
+                    <div className="data"></div>
                 </div>
             </div>
         </Section>
