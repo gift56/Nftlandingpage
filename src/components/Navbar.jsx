@@ -48,6 +48,6 @@ const Nav = styled.nav`
         justify-content: center;
         align-items: center;
         background-color: #fff;
-        clip-path: polygon()
+        clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
       }
 `;
