@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import styled from 'styled-components';
 import Hero from '../assets/hero.png';
 import Herotext from '../assets/heroText.png';
+import Buttons from './Buttons';
 
 const Home = () => {
     return (
@@ -21,6 +22,9 @@ const Home = () => {
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Ad eum dolor architecto assumenda perferendis temporibus.
                     </p>
+                    <div className="buttons">
+                        <Buttons blue text="Explore Now" />
+                    </div>
                 </div>
             </div>
         </Section>
