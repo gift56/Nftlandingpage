@@ -53,6 +53,18 @@ const Nav = styled.nav`
 
         ul {
             display: flex;
+            list-style-type: none;
+            gap: 3rem;
+            li {
+                a {
+                    text-decoration: none;
+                    color: #002000;
+                    transition: all 0.4s ease-in-out;
+                    &:hover{
+                        color: #2d69fd;
+                    }
+                }
+            }
         }
       }
 `;
