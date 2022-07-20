@@ -1,12 +1,20 @@
 import React from 'react'
 import Navbar from './Navbar';
+import styled from 'styled-components';
 
 const Home = () => {
     return (
-        <div>
+        <Section>
             <Navbar />
-        </div>
+        </Section>
     )
 }
 
-export default Home
+export default Home;
+
+
+const Section = styled.section`
+    margin: 0.5rem;
+    background: #232835;
+    border-radius: 1rem;
+`;
