@@ -56,5 +56,7 @@ const Section = styled.section`
     margin: 0.5rem;
     background: #232835;
     border-radius: 1rem;
-    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5rem;
 `;
