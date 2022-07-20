@@ -49,5 +49,10 @@ const Nav = styled.nav`
         align-items: center;
         background-color: #fff;
         clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+        padding: 2.5rem 8rem;
+
+        ul {
+            display: flex;
+        }
       }
 `;
