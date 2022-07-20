@@ -26,7 +26,20 @@ const Home = () => {
                         <Buttons blue text="Explore Now" />
                         <Buttons text="Create NFT" />
                     </div>
-                    <div className="data"></div>
+                    <div className="data">
+                        <div className="dataTab">
+                            <h2>40K</h2>
+                            <h5>Artwork</h5>
+                        </div>
+                        <div className="dataTab">
+                            <h2>40K</h2>
+                            <h5>Artwork</h5>
+                        </div>
+                        <div className="dataTab">
+                            <h2>40K</h2>
+                            <h5>Artwork</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </Section>
