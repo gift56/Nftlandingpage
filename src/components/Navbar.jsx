@@ -14,8 +14,18 @@ const Navbar = () => {
                     <li>
                         <a href="#home">Home</a>
                     </li>
+                    <li>
+                        <a href="#marketplace">Marketplace</a>
+                    </li>
+                    <li>
+                        <a href="#sellers">Sellers</a>
+                    </li>
+                    <li>
+                        <a href="#create">Create</a>
+                    </li>
                 </ul>
             </div>
+            <button>Contact</button>
         </Nav>
     )
 }
