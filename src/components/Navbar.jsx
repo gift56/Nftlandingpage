@@ -60,7 +60,7 @@ const Nav = styled.nav`
                     text-decoration: none;
                     color: #002000;
                     transition: all 0.4s ease-in-out;
-                    &:hover{
+                    &:hover {
                         color: #2d69fd;
                     }
                 }
