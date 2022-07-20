@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Buttons = ({ text }) => {
+const Buttons = ({ text, blue }) => {
     return (
-        <Btn>
-            {text}
-        </Btn>
+        <Div>
+            <button className={`${blue ? "blue" : ""}`}>{text}</button>
+        </Div>
     )
 }
 
 export default Buttons;
 
 
-const Btn = styled.button``;
+const Div = styled.div``;
