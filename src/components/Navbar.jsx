@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Logo from '../assets/logo.png';
+import Buttons from './Buttons';
 
 const Navbar = () => {
     return (
@@ -25,7 +26,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <button>Contact</button>
+            <Buttons text="Contact" />
         </Nav>
     )
 }

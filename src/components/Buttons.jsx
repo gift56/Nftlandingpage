@@ -1,11 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
 
-const Buttons = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+const Buttons = ({ text }) => {
+    return (
+        <Btn>
+            {text}
+        </Btn>
+    )
 }
 
-export default Buttons
+export default Buttons;
+
+
+const Btn = styled.button``;
