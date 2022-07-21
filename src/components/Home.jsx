@@ -89,11 +89,9 @@ const Section = styled.section`
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
-                text-transform: uppercase;
                 font-size: 4rem;
                 font-weight: bold;
                 color: #ffffff;
-                text-overflow: inherit;
             }
             p {
                color: #a6a6a6;
