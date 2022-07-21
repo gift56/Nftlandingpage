@@ -124,6 +124,13 @@ const Section = styled.section`
             }
         }
     }
+    @media screen and (max-width:1340px){
+        .image{
+           img{
+            height: 30rem;
+            }
+        }
+    }
     @media screen  and (max-width: 1080px){
        margin: 0;
        border-radius: 0;
