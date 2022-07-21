@@ -140,6 +140,9 @@ const Section = styled.section`
                         rgba(0,0,0,0.12) 0px 4px 6px,
                         rgba(0,0,0,0.09) 0px 3px 5px;
                     }
+                    .image {
+                      margin-bottom: 1rem;
+                    }
                }
         }
 `;
