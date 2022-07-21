@@ -61,5 +61,10 @@ const Section = styled.section`
                 margin-bottom: 4rem;
             }
         }
+        .container{
+            background-color: #232835;
+            padding: 5rem;
+            position: relative;
+            overflow: hidden;
+        }
 `;
-
