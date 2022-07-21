@@ -75,6 +75,25 @@ const Section = styled.section`
             display: flex;
             justify-content: center;
             align-items: center;
+            img{
+                height: 80vw;
+            }
+        }
+        .content{
+            gap: 1rem;
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                line-height: 1.4rem;
+            }
+            .input-container{
+                   display: none;
+                   width: max-content;
+                   input{
+                    width: 50%;
+                   }
+            }
         }
      }
 `;
