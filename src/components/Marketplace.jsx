@@ -150,6 +150,11 @@ const Section = styled.section`
                       color: #222222;
                       padding: 0 1rem;
                     }
+                    .username {
+                        color: #555555;
+                        font-size: 0.8rem;
+                        padding: 0 1rem;
+                    }
                }
         }
 `;
