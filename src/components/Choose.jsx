@@ -18,7 +18,7 @@ const Choose = () => {
                     distinctio incidunt aad eligendi, maxime quisquam
                     vel sed? Harum, ex ipsam.
                 </p>
-                <Buttons text="Read More" blue/>
+                <Buttons text="Read More" blue />
             </div>
         </Section>
     )
@@ -26,4 +26,8 @@ const Choose = () => {
 
 export default Choose;
 
-const Section = styled.section``;
+const Section = styled.section`
+     display: flex;
+     justify-content: center;
+     gap: 3rem;
+`;
