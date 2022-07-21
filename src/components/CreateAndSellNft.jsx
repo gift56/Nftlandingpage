@@ -83,7 +83,10 @@ const Section = styled.section`
                           padding: 1rem;
                           width: fit-content;
                           border-radius: 2rem;
-                      }
+                          img {
+                            height: 2rem;
+                          }
+                        }
                 }
             }
         }
