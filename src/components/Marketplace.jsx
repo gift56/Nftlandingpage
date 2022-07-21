@@ -10,6 +10,7 @@ import marketplace5 from '../assets/marketplace5.png';
 import marketplace6 from '../assets/marketplace6.png';
 import marketplace7 from '../assets/marketplace7.png';
 import marketplace8 from '../assets/marketplace8.png';
+import Buttons from './Buttons';
 
 const Marketplace = () => {
     const marketPlaceData = [
@@ -62,6 +63,11 @@ const Marketplace = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Excepturi dolor animi laudantium tempora.
                 </p>
+            </div>
+            <div className="marketPlaceTypes">
+                {marketPlaceType.map(({ text, index }) => (
+                    <Buttons text={text} />
+                ))}
             </div>
         </Section>
     )
