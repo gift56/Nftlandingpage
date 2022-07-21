@@ -46,4 +46,26 @@ const Section = styled.section`
             line-height: 2rem;
         }
      }
+     @media screen and (max-width: 1080px) {
+        flex-direction: column;
+        margin: 2rem;
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 50vw;
+            }
+        }
+        .content{
+            gap: 1rem;
+            h2{
+                font-size: 1rem;
+            }
+            p{
+                font-size: 0.9rem;
+                line-height: 1.3rem;
+            }
+        }
+     }
 `;
