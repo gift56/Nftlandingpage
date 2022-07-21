@@ -27,5 +27,10 @@ const Div = styled.div`
     }
     a{
         position: fixed;
+        bottom: 40px;
+        right: 40px;
+        background-color: #2d69fd;
+        padding: 1rem;
+        border-radius: 100%;
     }
 `;
