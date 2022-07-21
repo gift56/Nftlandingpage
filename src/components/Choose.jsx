@@ -10,6 +10,13 @@ const Choose = () => {
             </div>
             <div className="content">
                 <h2>Why should you choose Our Website?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quae corporis praesentium quisquam quasi! Aliquid
+                    eius vero aliquam. Minus quas saepe, perferendis
+                    distinctio incidunt aad eligendi, maxime quisquam
+                    vel sed? Harum, ex ipsam.
+                </p>
             </div>
         </Section>
     )
