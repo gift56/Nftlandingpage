@@ -9,12 +9,16 @@ const ScrollTop = () => {
         window.pageYOffset > 100 ? setVisible(true) : setVisible(false);
     });
     return (
-        <div>
+        <Div>
             <a href="#scroll" className={`${visible ? "block" : "none"}`}>
                 <FaChevronUp />
             </a>
-        </div>
+        </Div>
     )
 }
 
-export default ScrollTop
+export default ScrollTop;
+
+const Div = styled.div`
+    max-width: 100vw;
+`;
