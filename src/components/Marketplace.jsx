@@ -65,7 +65,7 @@ const Marketplace = () => {
                 </p>
             </div>
             <div className="marketPlaceTypes">
-                {marketPlaceType.map(({ text }, index) => (
+                {marketPlaceType.map((text, index) => (
                     <Buttons text={text} key={index} blue={index === 0} />
                 ))}
             </div>
