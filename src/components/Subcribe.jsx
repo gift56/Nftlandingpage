@@ -6,9 +6,11 @@ import subcribe from '../assets/subscribe.png';
 const Subcribe = () => {
     return (
         <div>
-            Subcribe
+
         </div>
     )
 }
 
-export default Subcribe
+export default Subcribe;
+
+const Section = styled.section``;
