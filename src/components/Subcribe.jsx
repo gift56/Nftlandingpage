@@ -25,4 +25,24 @@ const Subcribe = () => {
 
 export default Subcribe;
 
-const Section = styled.section``;
+const Section = styled.section`
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3rem;
+     margin: 0 9rem;
+     margin-bottom: 5rem;
+     .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        h2 {
+         font-size: 4.5rem;
+        }
+        p{
+            color: #7b7e86;
+            line-height: 2rem;
+        }
+     }
+`;
