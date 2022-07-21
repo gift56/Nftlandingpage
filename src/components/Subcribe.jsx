@@ -66,6 +66,16 @@ const Section = styled.section`
                }
         }
      }
+     @media screen and (max-width:1340px){
+        h2{
+            font-size: 3rem;
+        }
+        .image{
+           img{
+            height: 30rem;
+            }
+        }
+    }
      @media screen  and (max-width: 1080px){
         flex-direction: column;
         margin: 0 2rem;
