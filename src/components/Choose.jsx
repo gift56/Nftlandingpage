@@ -37,5 +37,9 @@ const Section = styled.section`
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 3rem;
+        h2 {
+         font-size: 4rem;
+        }
      }
 `;
