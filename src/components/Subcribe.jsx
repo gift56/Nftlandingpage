@@ -66,4 +66,15 @@ const Section = styled.section`
                }
         }
      }
+     @media screen  and (max-width: 1080px){
+        flex-direction: column;
+        margin: 0 2rem;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+     }
 `;
