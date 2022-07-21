@@ -56,7 +56,7 @@ const Marketplace = () => {
     ]
     return (
         <Section>
-
+            MarketPlace
         </Section>
     )
 }

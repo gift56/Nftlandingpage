@@ -3,6 +3,7 @@ import Choose from "./components/Choose";
 import Clients from "./components/Clients";
 import CreateAndSellNft from "./components/CreateAndSellNft";
 import Home from "./components/Home";
+import Marketplace from "./components/Marketplace";
 
 function App() {
   document.title = 'Nft-Market'
@@ -12,6 +13,7 @@ function App() {
       <Clients />
       <CreateAndSellNft />
       <Choose />
+      <Marketplace />
     </div>
   )
 }
