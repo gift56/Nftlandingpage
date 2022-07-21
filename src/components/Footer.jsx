@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { AiFillFacebook } from 'react-icons/ai';
-import { FaTwitterSquare, FaInstagramSquare, FaLinkedin, FaLocationArrow } from 'react-icons/fa';
-import { MdEmail, MdPhoneInTalk } from 'react-icons/md';
+import { FaTwitterSquare, FaInstagramSquare, FaLinkedin, FaLocationArrow, FaFacebook, FaPhoneAlt } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md'
 import Logo from '../assets/logo.png';
 
 const Footer = () => {
@@ -11,11 +10,11 @@ const Footer = () => {
 
     const contactInfo = [
         {
-            icon: <MdEmail />,
+            icon: < MdEmail />,
             value: "efeasiughu@gmail.com"
         },
         {
-            icon: <MdPhoneInTalk />,
+            icon: <FaPhoneAlt />,
             value: "+234 123 568 9876"
         },
         {
@@ -24,7 +23,7 @@ const Footer = () => {
         },
     ];
     const socialIcons = [
-        <AiFillFacebook />,
+        <FaFacebook />,
         <FaTwitterSquare />,
         <FaLinkedin />,
         <FaInstagramSquare />
