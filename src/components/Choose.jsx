@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import choose from '../assets/choose.png';
+import Buttons from './Buttons';
 
 const Choose = () => {
     return (
@@ -17,6 +18,7 @@ const Choose = () => {
                     distinctio incidunt aad eligendi, maxime quisquam
                     vel sed? Harum, ex ipsam.
                 </p>
+                <Buttons text="Read More" blue/>
             </div>
         </Section>
     )
