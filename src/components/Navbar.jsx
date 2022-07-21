@@ -9,7 +9,7 @@ const Navbar = () => {
     const html = document.querySelector("html");
     html.addEventListener("click", (e) => setIsNavOpen(false));
     return (
-        <Nav>
+        <Nav state={isNavOpen ? 1 : 0}>
             <div className="brand">
                 <img src={Logo} alt="logo" />
             </div>
