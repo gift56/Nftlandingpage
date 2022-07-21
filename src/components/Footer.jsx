@@ -99,6 +99,14 @@ const Container = styled.footer`
                 border: 1px solid #2d68fd7f;
                 padding: 0.2rem;
                 display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0.3rem;
+                cursor: pointer;
+                svg{
+                    color: #2d69fd;
+                    font-size: 1.5rem;
+                }
             }
         }
       }
