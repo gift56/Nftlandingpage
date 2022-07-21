@@ -8,6 +8,9 @@ const Choose = () => {
             <div className="image">
                 <img src={choose} alt="choose img" />
             </div>
+            <div className="content">
+                
+            </div>
         </Section>
     )
 }
