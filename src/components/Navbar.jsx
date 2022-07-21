@@ -80,4 +80,19 @@ const Nav = styled.nav`
             }
         }
       }
+   @media screen and (max-width: 1080px){
+         position: relative;
+         padding: 1rem 2rem;
+         z-index: 999;
+         margin: 0;
+         button{
+            display: none;
+         }
+         .account-info{
+            display: none;
+         }
+         .brand{
+            display: flex;
+         }
+   }
 `;
