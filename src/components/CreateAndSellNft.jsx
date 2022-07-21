@@ -33,9 +33,11 @@ const CreateAndSellNft = () => {
             </div>
             <div className="container">
                 <div className="content">
-                    {data.map((card, index) = (
+                    {data.map((item, index) => (
                         <div className="createAndSell" key={index}>
-
+                            <div className="image">
+                                <img src={item.image} alt="create and sell" />
+                            </div>
                         </div>
                     ))}
                 </div>
