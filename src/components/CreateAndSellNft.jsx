@@ -64,9 +64,18 @@ const Section = styled.section`
         .container{
             background-color: #232835;
             padding: 5rem;
+            border-radius: 1rem;
             .content{
                 display: flex;
                 gap: 3rem;
+                .createAndSell {
+                      background-color: #ffffff34;
+                      display: flex;
+                      flex-direction: column;
+                      gap: 1rem;
+                      padding: 2rem;
+                      border-radius: 1rem;
+                }
             }
         }
 `;
