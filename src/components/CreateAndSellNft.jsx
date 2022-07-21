@@ -54,5 +54,12 @@ export default CreateAndSellNft;
 const Section = styled.section`
         margin: 0 6rem;
         margin-bottom: 5rem;
+        .title{
+            text-align: center;
+            h2{
+                font-size: 2rem;
+                margin-bottom: 4rem;
+            }
+        }
 `;
 
