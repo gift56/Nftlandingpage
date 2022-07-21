@@ -75,6 +75,15 @@ const Section = styled.section`
                       gap: 1rem;
                       padding: 2rem;
                       border-radius: 1rem;
+                      .image {
+                          background-color: #2d69fd;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          padding: 1rem;
+                          width: fit-content;
+                          border-radius: 2rem;
+                      }
                 }
             }
         }
