@@ -6,6 +6,8 @@ import Buttons from './Buttons';
 
 const Navbar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
+    const html = document.querySelector("html");
+    html.addEventListener("click", (e) => setIsNavOpen(false));
     return (
         <Nav>
             <div className="brand">
