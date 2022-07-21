@@ -9,6 +9,7 @@ import Logo from '../assets/logo.png';
 
 const Footer = () => {
     const servicesLinks = ["Art", "Common", "Trading", "Rare", "Genetic"];
+    const companyLinks = ["Home", "About", "Marketplace", "Sellers", "Create"];
     return (
         <div>
 
