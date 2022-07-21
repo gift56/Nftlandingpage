@@ -41,7 +41,7 @@ const Div = styled.div`
             color: #ffffff;
             font-size: 1.5rem;
         }
-        @media screen and (min-width: 280px) and (max-width:1080px) {
+        @media screen and (max-width:1080px) {
             left: 75vw;
             right: initial;
         }
