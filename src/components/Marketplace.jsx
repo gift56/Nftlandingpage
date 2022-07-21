@@ -125,5 +125,14 @@ const Section = styled.section`
         .marketPlaces {
                display: grid;
                grid-template-columns: repeat(4,1fr);
+               gap: 2rem;
+               .marketPlace {
+                    padding: 0.5rem;
+                    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0;
+                    border-radius: 1rem;
+                    width: max-content;
+                    cursor: pointer;
+                    transition: 0.5s ease-in-out;
+               }
         }
 `;
