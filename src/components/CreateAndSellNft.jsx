@@ -10,19 +10,19 @@ const CreateAndSellNft = () => {
         {
             image: sell1,
             title: "Create your collection",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ipsum dolor sit amet",
             buttonText: "Create"
         },
         {
             image: sell2,
             title: "Add your NFTs",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ipsum dolor sit amet",
             buttonText: "Add NFT"
         },
         {
             image: sell3,
             title: "List them for sale",
-            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum",
+            description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ipsum dolor sit amet",
             buttonText: "Sell Now"
         }
     ]
