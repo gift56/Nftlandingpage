@@ -32,10 +32,14 @@ const Footer = () => {
         <FaInstagramSquare />
     ]
     return (
-        <div>
-
-        </div>
+        <Container>
+            <div className="row">
+                
+            </div>
+        </Container>
     )
 }
 
 export default Footer;
+
+const Container = styled.container``;
