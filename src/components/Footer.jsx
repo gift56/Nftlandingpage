@@ -20,6 +20,10 @@ const Footer = () => {
             icon: <MdPhoneInTalk />,
             value: "+234 123 568 9876"
         },
+        {
+            icon: <IoLocationSharp />,
+            value: "19 Avenue, Lagos Nigeria"
+        },
     ]
     return (
         <div>
