@@ -29,7 +29,7 @@ const Footer = () => {
         <FaInstagramSquare />
     ]
     return (
-        <div>
+        <Container>
             <div className="row">
                 <div className="brand">
                     <img src={Logo} alt="logo" />
@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="row">
                 <h3>Contact Us</h3>
                 <ul>
-                    {contactInfo.map(({icon, value})=>(
+                    {contactInfo.map(({ icon, value }) => (
                         <li>
                             <div className="icon">{icon}</div>
                             <span>{value}</span>
@@ -71,8 +71,12 @@ const Footer = () => {
                 </ul>
             </div>
 
-        </div>
+        </Container>
     )
 }
 
 export default Footer;
+
+const Container = styled.footer`
+      
+`;
