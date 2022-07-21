@@ -121,5 +121,9 @@ const Section = styled.section`
             color: #000;
             border-color: #7b7e86;
           }
-         }
+        }
+        .marketPlaces {
+               display: grid;
+               grid-template-columns: repeat(4,1fr);
+        }
 `;
