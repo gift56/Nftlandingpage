@@ -6,7 +6,9 @@ import subcribe from '../assets/subscribe.png';
 const Subcribe = () => {
     return (
         <Section>
-
+            <div className="content">
+                <h2>Subscribe for Get update every New Offers</h2>
+            </div>
         </Section>
     )
 }
