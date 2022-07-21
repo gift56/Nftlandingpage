@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+import choose from '../assets/choose.png';
 
 const Choose = () => {
-  return (
-    <div>
-      chose
-    </div>
-  )
+    return (
+        <div>
+            
+        </div>
+    )
 }
 
-export default Choose
+export default Choose;
