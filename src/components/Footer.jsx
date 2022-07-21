@@ -24,6 +24,12 @@ const Footer = () => {
             icon: <IoLocationSharp />,
             value: "19 Avenue, Lagos Nigeria"
         },
+    ];
+    const socialIcons = [
+        <AiFillFacebook />,
+        <FaTwitterSquare />,
+        <BsLinkedin />,
+        <FaInstagramSquare />
     ]
     return (
         <div>
@@ -32,4 +38,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
