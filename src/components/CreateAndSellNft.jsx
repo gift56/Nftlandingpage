@@ -38,6 +38,9 @@ const CreateAndSellNft = () => {
                             <div className="image">
                                 <img src={item.image} alt="create and sell" />
                             </div>
+                            <h3>{item.title}</h3>
+                            <p>{item.description}</p>
+                            <Buttons text={item.buttonText} blue={index === 1} />
                         </div>
                     ))}
                 </div>
