@@ -143,6 +143,13 @@ const Section = styled.section`
                     .image {
                       margin-bottom: 1rem;
                     }
+                    .name {
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      color: #222222;
+                      padding: 0 1rem;
+                    }
                }
         }
 `;
