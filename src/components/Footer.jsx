@@ -34,7 +34,10 @@ const Footer = () => {
     return (
         <Container>
             <div className="row">
-                
+                <div className="brand">
+                    <img src={Logo} alt="logo" />
+                </div>
+                <p className="description"></p>
             </div>
         </Container>
     )
