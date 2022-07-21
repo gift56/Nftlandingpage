@@ -21,4 +21,11 @@ export default ScrollTop;
 
 const Div = styled.div`
     max-width: 100vw;
+    .none{
+        opacity: 0;
+        visibility: hidden;
+    }
+    a{
+        position: fixed;
+    }
 `;
