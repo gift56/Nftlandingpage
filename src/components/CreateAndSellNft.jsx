@@ -28,7 +28,18 @@ const CreateAndSellNft = () => {
     ]
     return (
         <Section>
+            <div className="title">
+                <h2>Create and Sell your NFTs</h2>
+            </div>
+            <div className="container">
+                <div className="content">
+                    {data.map({image,description,title,buttonText},index=>(
+                        <div className="createAndSell" key={index}>
 
+                        </div>
+                    ))}
+                </div>
+            </div>
         </Section>
     )
 }
