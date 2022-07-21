@@ -167,6 +167,11 @@ const Section = styled.section`
                     }
                }
         }
+        @media screen and (max-width:1340px){
+            .marketPlaces{
+                grid-template-columns: repeat(3,1fr);
+            }
+        }
         @media screen  and (max-width:1080px){
             margin: 2rem;
             .marketPlaceTypes{
