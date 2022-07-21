@@ -124,4 +124,12 @@ const Section = styled.section`
             }
         }
     }
+    @media screen  and (max-width: 1080px){
+       margin: 0;
+       border-radius: 0;
+       .container{
+        flex-direction: column;
+        margin: 0;
+       }
+    }
 `;
