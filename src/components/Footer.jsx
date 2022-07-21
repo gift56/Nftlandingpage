@@ -35,6 +35,13 @@ const Footer = () => {
                     <img src={Logo} alt="logo" />
                 </div>
                 <p className="description">19 Avenue Street, Lagos Nigeria, 101229</p>
+                <div className="social-icons">
+                    {socialIcons.map((icon) => (
+                        <div className="icon">
+                            {icon}
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
