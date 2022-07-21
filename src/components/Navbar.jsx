@@ -1,5 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
+import React, { useState } from 'react'
+import styled from 'styled-components';
+import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../assets/logo.png';
 import Buttons from './Buttons';
 
