@@ -117,5 +117,9 @@ const Section = styled.section`
           justify-content: center;
           align-items: center;
           gap: 2rem;
+          button:not(.blue){
+            color: #000;
+            border-color: #7b7e86;
+          }
          }
 `;
