@@ -111,6 +111,16 @@ const Nav = styled.nav`
          }
          .links{
             z-index: 50;
+            position: absolute;
+            overflow-x: hidden;
+            top: 0;
+            right: 0;
+            width: ${({ state }) => (state ? "60%" : "0%")};
+            height: 100vh;
+            background-color:#ffffff;
+            opacity: 0;
+            visibility: hidden;
+            transition: all .7s ease-in-out;
          }
    }
 `;
