@@ -130,6 +130,23 @@ const Section = styled.section`
        .container{
         flex-direction: column;
         margin: 0;
+        padding: 2rem;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        .content{
+            h1{
+                font-size: 2.5rem;
+                span{
+                    img{
+                        height: 2rem;
+                    }
+                }
+            }
+        }
+        .buttons{
+            flex-direction: column;
+        }
        }
     }
 `;
