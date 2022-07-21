@@ -78,5 +78,6 @@ const Footer = () => {
 export default Footer;
 
 const Container = styled.footer`
-      
+      background: #443357;
+    
 `;
