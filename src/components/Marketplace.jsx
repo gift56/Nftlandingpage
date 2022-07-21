@@ -99,11 +99,17 @@ const Section = styled.section`
          gap: 5rem;
          margin: 0 6rem;
          margin-bottom: 5rem;
-         .title{
+         .title {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             gap: 3rem;
+            h2 {
+              font-size: 2.5rem;
+            }
+            p {
+
+            }
          }
 `;
