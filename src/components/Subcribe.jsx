@@ -8,6 +8,9 @@ const Subcribe = () => {
         <Section>
             <div className="content">
                 <h2>Subscribe for Get update every New Offers</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    At perferendis tenetur voluptates deserunt ab alias.
+                </p>
             </div>
         </Section>
     )
