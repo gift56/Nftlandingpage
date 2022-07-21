@@ -109,7 +109,7 @@ const Section = styled.section`
               font-size: 2.5rem;
             }
             p {
-
+              color: #7b7e86;
             }
          }
 `;
