@@ -8,8 +8,8 @@ const Subcribe = () => {
         <Section>
             <div className="content">
                 <h2>Subscribe for Get update every New Offers</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    At perferendis tenetur voluptates deserunt ab alias.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+                    placeat eveniet nihil provident explicabo obcaecati voluptatibus cumque atque odit earum enim.
                 </p>
                 <div className="input-container">
                     <input type="text" placeholder='Enter Email' />
