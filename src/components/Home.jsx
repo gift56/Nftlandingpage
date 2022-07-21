@@ -59,4 +59,49 @@ const Section = styled.section`
     position: relative;
     overflow: hidden;
     margin-bottom: 5rem;
+    .ellipse {
+        width: 30rem;
+        height: 30rem;
+        background: #ae54c27d;
+        opacity: 0.5;
+        border-radius: 100%;
+        filter: blur(2000px);
+        position: absolute;
+        bottom: -30%;
+        left: -10%;
+        z-index: 1;
+    }
+    .container {
+        padding: 2rem;
+        margin: 0 2rem;
+        display: flex;
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 5rem;
+            padding-right: 2rem;
+            z-index: 10;
+            h1 {
+                color: #fff;
+                font-size: 5rem;
+            }
+            p {
+               color: #a6a6a6;
+            }
+            .buttons{
+                display: flex;
+                gap: 2rem;
+            }
+            .data {
+                display: flex;
+                gap: 5rem;
+                .dataTab {
+                      display: flex;
+                      flex-direction: column;
+                      gap: 1rem;
+                }
+            }
+        }
+    }
 `;
