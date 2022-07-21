@@ -4,6 +4,7 @@ import Clients from "./components/Clients";
 import CreateAndSellNft from "./components/CreateAndSellNft";
 import Home from "./components/Home";
 import Marketplace from "./components/Marketplace";
+import Subcribe from "./components/Subcribe";
 
 function App() {
   document.title = 'Nft-Market'
@@ -14,6 +15,7 @@ function App() {
       <CreateAndSellNft />
       <Choose />
       <Marketplace />
+      <Subcribe />
     </div>
   )
 }

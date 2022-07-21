@@ -66,7 +66,9 @@ const Marketplace = () => {
             </div>
             <div className="marketPlaceTypes">
                 {marketPlaceType.map((text, index) => (
-                    <Buttons text={text} key={index} blue={index === 0} />
+                    <div key={index}>
+                        <Buttons text={text} blue={index === 0} />
+                    </div>
                 ))}
             </div>
             <div className="marketPlaces">
