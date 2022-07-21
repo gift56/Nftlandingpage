@@ -9,7 +9,7 @@ const Choose = () => {
                 <img src={choose} alt="choose img" />
             </div>
             <div className="content">
-                
+                <h2>Why should you choose Our Website?</h2>
             </div>
         </Section>
     )
