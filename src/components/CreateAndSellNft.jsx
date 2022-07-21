@@ -52,7 +52,7 @@ const CreateAndSellNft = () => {
 export default CreateAndSellNft;
 
 const Section = styled.section`
-
-
+        margin: 0 6rem;
+        margin-bottom: 5rem;
 `;
 
