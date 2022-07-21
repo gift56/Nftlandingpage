@@ -4,10 +4,14 @@ import choose from '../assets/choose.png';
 
 const Choose = () => {
     return (
-        <div>
-            
-        </div>
+        <Section>
+            <div className="image">
+                <img src={choose} alt="choose img" />
+            </div>
+        </Section>
     )
 }
 
 export default Choose;
+
+const Section = styled.section``;
