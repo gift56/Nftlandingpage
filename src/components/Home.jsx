@@ -146,6 +146,7 @@ const Section = styled.section`
         }
         .buttons{
             flex-direction: column;
+            justify-content: center;
         }
        }
     }
