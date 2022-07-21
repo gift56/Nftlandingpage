@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillArrowDownCircleFill } from 'react-icons/bs';
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import styled from 'styled-components';
 import subcribe from '../assets/subscribe.png';
 
@@ -13,7 +13,7 @@ const Subcribe = () => {
                 </p>
                 <div className="input-container">
                     <input type="text" placeholder='Enter Email' />
-                    <BsFillArrowDownCircleFill />
+                    <BsFillArrowRightCircleFill />
                 </div>
             </div>
             <div className="image">
@@ -48,14 +48,21 @@ const Section = styled.section`
                display: flex;
                align-items: center;
                justify-content: center;
-               padding: 0 5rem;
+               padding: 0.5rem;
                width: max-content;
                gap: 1rem;
                border: 1px solid #c4c4c4;
                border-radius: 3rem;
-               input{
-                border: none;
-                outline: none;
+               input {
+                 border: none;
+                 outline: none;
+                 padding-left: 2rem;
+                 padding-right: 5rem;
+                 font-size: 1.3rem;
+               }
+               svg { 
+                 font-size: 3rem;
+                 color: #2d69fd;
                }
         }
      }
