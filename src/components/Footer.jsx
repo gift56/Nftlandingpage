@@ -46,8 +46,27 @@ const Footer = () => {
             <div className="row">
                 <h3>Our Service</h3>
                 <ul className="list">
-                    {servicesLinks.map((link)=>(
+                    {servicesLinks.map((link) => (
                         <li key={link}>{link}</li>
+                    ))}
+                </ul>
+            </div>
+            <div className="row">
+                <h3>Company</h3>
+                <ul className="list">
+                    {companyLinks.map((link) => (
+                        <li key={link}>{link}</li>
+                    ))}
+                </ul>
+            </div>
+            <div className="row">
+                <h3>Contact Us</h3>
+                <ul>
+                    {contactInfo.map(({icon, value})=>(
+                        <li>
+                            <div className="icon">{icon}</div>
+                            <span>{value}</span>
+                        </li>
                     ))}
                 </ul>
             </div>
