@@ -7,7 +7,7 @@ import Buttons from './Buttons';
 
 const Home = () => {
     return (
-        <Section>
+        <Section id='home'>
             <Navbar />
             <div className="ellipse"></div>
             <div className="container">
