@@ -93,6 +93,14 @@ const Nav = styled.nav`
          }
          .brand{
             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+         }
+         .toggle{
+            padding-right: 1rem;
+            display: block;
+            z-index: 51;
          }
    }
 `;
