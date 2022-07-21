@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { AiFillFacebook } from 'react-icons/ai';
-import { BsLinkedin } from 'react-icons/Bs';
-import { FaTwitterSquare, FaInstagramSquare } from 'react-icons/fa';
+import { FaTwitterSquare, FaInstagramSquare, FaLinkedin, FaLocationArrow } from 'react-icons/fa';
 import { MdEmail, MdPhoneInTalk } from 'react-icons/md';
-import { IoLocationSharp } from 'react-icons/ioS';
 import Logo from '../assets/logo.png';
 
 const Footer = () => {
@@ -21,28 +19,28 @@ const Footer = () => {
             value: "+234 123 568 9876"
         },
         {
-            icon: <IoLocationSharp />,
-            value: "19 Avenue, Lagos Nigeria"
+            icon: <FaLocationArrow />,
+            value: "19 Avenue Street, Lagos Nigeria 101229"
         },
     ];
     const socialIcons = [
         <AiFillFacebook />,
         <FaTwitterSquare />,
-        <BsLinkedin />,
+        <FaLinkedin />,
         <FaInstagramSquare />
     ]
     return (
-        <Container>
+        <div>
             <div className="row">
                 <div className="brand">
                     <img src={Logo} alt="logo" />
                 </div>
-                <p className="description"></p>
+                <p className="description">19 Avenue Street, Lagos Nigeria, 101229</p>
             </div>
-        </Container>
+        </div>
     )
 }
 
 export default Footer;
 
-const Container = styled.container``;
+
