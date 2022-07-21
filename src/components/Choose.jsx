@@ -48,7 +48,7 @@ const Section = styled.section`
      }
      @media screen and (max-width:1340px){
         h2{
-            font-size: 3rem;
+            font-size: 3rem !important;
         }
         .image{
            img{
