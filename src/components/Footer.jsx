@@ -8,6 +8,7 @@ import { IoLocationSharp } from 'react-icons/ioS';
 import Logo from '../assets/logo.png';
 
 const Footer = () => {
+    const servicesLinks = ["Art", "Common", "Trading", "Rare", "Genetic"];
     return (
         <div>
 
