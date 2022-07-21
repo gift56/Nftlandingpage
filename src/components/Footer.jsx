@@ -5,6 +5,7 @@ import { BsLinkedin } from 'react-icons/Bs';
 import { FaTwitterSquare, FaInstagramSquare } from 'react-icons/fa';
 import { MdEmail, MdPhoneInTalk } from 'react-icons/md';
 import { IoLocationSharp } from 'react-icons/ioS';
+import Logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
