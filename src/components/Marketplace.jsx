@@ -12,6 +12,7 @@ import marketplace7 from '../assets/marketplace7.png';
 import marketplace8 from '../assets/marketplace8.png';
 
 const Marketplace = () => {
+    
     return (
         <div>
 
