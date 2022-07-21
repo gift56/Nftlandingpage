@@ -11,9 +11,13 @@ const Subcribe = () => {
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     At perferendis tenetur voluptates deserunt ab alias.
                 </p>
-            </div>
-            <div className="input-container">
-                
+                <div className="input-container">
+                    <input type="text" placeholder='Enter Email' />
+                    <BsFillArrowDownCircleFill />
+                </div>
+                <div className="image">
+                    <img src={subcribe} alt="subcribeimg" />
+                </div>
             </div>
         </Section>
     )
