@@ -1,5 +1,6 @@
 import React from "react";
 import Clients from "./components/Clients";
+import CreateAndSellNft from "./components/CreateAndSellNft";
 import Home from "./components/Home";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Home />
       <Clients />
+      <CreateAndSellNft />
     </div>
   )
 }
