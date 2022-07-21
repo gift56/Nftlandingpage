@@ -117,7 +117,15 @@ const Container = styled.footer`
             li{
                 display: flex;
                 gap: 2rem;
-                align-items: center;
+                .icon{
+                    border: 1px solid #2d68fd7f;
+                    padding: 0.2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 0.3rem;
+                    cursor: pointer;
+                }
             }
           }
         }
