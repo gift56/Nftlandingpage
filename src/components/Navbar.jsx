@@ -5,6 +5,7 @@ import Logo from '../assets/logo.png';
 import Buttons from './Buttons';
 
 const Navbar = () => {
+    const [isNavOpen, setIsNavOpen] = useState(false);
     return (
         <Nav>
             <div className="brand">
