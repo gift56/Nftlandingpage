@@ -102,5 +102,8 @@ const Section = styled.section`
          .title{
             display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 3rem;
          }
 `;
