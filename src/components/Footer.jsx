@@ -36,8 +36,8 @@ const Footer = () => {
                 </div>
                 <p className="description">19 Avenue Street, Lagos Nigeria, 101229</p>
                 <div className="social-icons">
-                    {socialIcons.map((icon) => (
-                        <div className="icon">
+                    {socialIcons.map((icon, index) => (
+                        <div className="icon" key={index}>
                             {icon}
                         </div>
                     ))}
@@ -62,8 +62,8 @@ const Footer = () => {
             <div className="row">
                 <h3>Contact Us</h3>
                 <ul>
-                    {contactInfo.map(({ icon, value }) => (
-                        <li>
+                    {contactInfo.map(({ icon, value }, index) => (
+                        <li key={index}>
                             <div className="icon">{icon}</div>
                             <span>{value}</span>
                         </li>
