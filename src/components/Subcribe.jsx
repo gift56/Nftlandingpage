@@ -12,6 +12,9 @@ const Subcribe = () => {
                     At perferendis tenetur voluptates deserunt ab alias.
                 </p>
             </div>
+            <div className="input-container">
+                
+            </div>
         </Section>
     )
 }
