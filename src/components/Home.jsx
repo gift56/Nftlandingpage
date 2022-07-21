@@ -147,6 +147,17 @@ const Section = styled.section`
         .buttons{
             flex-direction: column;
             justify-content: center;
+            align-items: center;
+        }
+        .data{
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+        .image{
+            img{
+                height: 15rem;
+            }
         }
        }
     }
