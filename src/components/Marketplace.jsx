@@ -154,6 +154,14 @@ const Section = styled.section`
                         color: #555555;
                         font-size: 0.8rem;
                         padding: 0 1rem;
+                        margin-bottom: 0.5rem;
+                    }
+                    .price-container {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0 1rem; 
+                        color: #02204e;
                     }
                }
         }
