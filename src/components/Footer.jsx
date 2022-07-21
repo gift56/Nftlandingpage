@@ -89,8 +89,11 @@ const Container = styled.footer`
          display: flex;
          flex-direction: column;
          gap: 2rem;
-         .h3 {
+        h3,.description {
             color: #ffffff;
-         }
+        }
+        .social-icon{
+            
+        }
       }
 `;
