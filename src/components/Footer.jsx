@@ -79,5 +79,7 @@ export default Footer;
 
 const Container = styled.footer`
       background: #443357;
-    
+      background: linear-gradient(to right,#443357,#394053);
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
 `;
