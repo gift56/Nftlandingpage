@@ -15,9 +15,9 @@ const Subcribe = () => {
                     <input type="text" placeholder='Enter Email' />
                     <BsFillArrowDownCircleFill />
                 </div>
-                <div className="image">
-                    <img src={subcribe} alt="subcribeimg" />
-                </div>
+            </div>
+            <div className="image">
+                <img src={subcribe} alt="subcribeimg" />
             </div>
         </Section>
     )
