@@ -23,11 +23,11 @@ const Marketplace = () => {
         },
         {
             image: marketplace3,
-            name: "Pedram-mohamm..."
+            name: "Eduardo-pena"
         },
         {
             image: marketplace4,
-            name: "Pedram-mohamm..."
+            name: "Daeho-cha"
         },
         {
             image: marketplace5,
