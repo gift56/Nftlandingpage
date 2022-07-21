@@ -92,8 +92,14 @@ const Container = styled.footer`
         h3,.description {
             color: #ffffff;
         }
-        .social-icon{
-            
+        .social-icons{
+            display: flex;
+            gap: 1rem;
+            .icon{
+                border: 1px solid #2d68fd7f;
+                padding: 0.2rem;
+                display: flex;
+            }
         }
       }
 `;
