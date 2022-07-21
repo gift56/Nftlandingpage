@@ -87,6 +87,12 @@ const Section = styled.section`
                             height: 2rem;
                           }
                         }
+                        h3{
+                            color: #ffff;
+                        }
+                        p{
+                            color: #c8c4cf;
+                        }
                 }
             }
         }
