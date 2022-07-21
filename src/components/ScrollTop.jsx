@@ -10,7 +10,7 @@ const ScrollTop = () => {
     });
     return (
         <Div>
-            <a href="#scroll" className={`${visible ? "block" : "none"}`}>
+            <a href="#" className={`${visible ? "block" : "none"}`}>
                 <FaChevronUp />
             </a>
         </Div>

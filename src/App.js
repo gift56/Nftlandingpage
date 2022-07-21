@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Marketplace from "./components/Marketplace";
 import Subcribe from "./components/Subcribe";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   document.title = 'Nft-Market'
@@ -18,6 +19,7 @@ function App() {
       <Marketplace />
       <Subcribe />
       <Footer />
+      <ScrollTop />
     </div>
   )
 }
