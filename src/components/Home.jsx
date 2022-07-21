@@ -12,11 +12,15 @@ const Home = () => {
             <div className="ellipse"></div>
             <div className="container">
                 <div className="content">
-                    <h1>Explore Our
-                        <span>
-                            <img src={Herotext} alt="heroText" />
-                        </span> Hero
-                        Text Digital NFT Market Place
+                    <h1 className='headingTxt'>
+                        <div>
+                            <span>Explore Our</span>
+                            <span>
+                                <img src={Herotext} alt="heroText" />
+                            </span>
+                        </div>
+                        <div><span>Hero Text Digital</span></div>
+                        <div><span> NFT Market Place</span></div>
                     </h1>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -80,11 +84,16 @@ const Section = styled.section`
             flex-direction: column;
             gap: 2rem;
             margin-top: 5rem;
-            padding-right: 2rem;
             z-index: 10;
             h1 {
-                color: #fff;
-                font-size: 5rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                text-transform: uppercase;
+                font-size: 4rem;
+                font-weight: bold;
+                color: #ffffff;
+                text-overflow: inherit;
             }
             p {
                color: #a6a6a6;
