@@ -23,7 +23,7 @@ const Navbar = () => {
                     }} />
                 )}
             </div>
-            <div className="links">
+            <div className={`links ${isNavOpen ? "show" : ""}`}>
                 <ul>
                     <li>
                         <a href="#home">Home</a>
