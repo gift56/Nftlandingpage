@@ -89,10 +89,10 @@ const Container = styled.footer`
          display: flex;
          flex-direction: column;
          gap: 2rem;
-        h3,.description {
+         h3,.description {
             color: #ffffff;
-        }
-        .social-icons{
+         }
+         .social-icons{
             display: flex;
             gap: 1rem;
             .icon{
@@ -108,6 +108,17 @@ const Container = styled.footer`
                     font-size: 1.5rem;
                 }
             }
+          }
+          ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            li{
+                display: flex;
+                gap: 2rem;
+                align-items: center;
+            }
+          }
         }
-      }
 `;
