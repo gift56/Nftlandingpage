@@ -125,6 +125,10 @@ const Container = styled.footer`
                     align-items: center;
                     border-radius: 0.3rem;
                     cursor: pointer;
+                    svg{
+                    color: #2d69fd;
+                    font-size: 1.5rem;
+                   }
                 }
             }
           }
