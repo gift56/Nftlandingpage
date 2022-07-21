@@ -75,6 +75,15 @@ const Marketplace = () => {
                         <div className="image">
                             <img src={market.image} alt="" />
                         </div>
+                        <div className="name">
+                            <h4>{market.name}</h4>
+                            <BsThreeDots />
+                        </div>
+                        <h5 className="username">@asiughuefe</h5>
+                        <div className="price-container">
+                            <h5 className="price">5.5ETH</h5>
+                            <FaEthereum />
+                        </div>
                     </div>
                 ))}
             </div>
