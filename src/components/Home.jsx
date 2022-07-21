@@ -139,14 +139,14 @@ const Section = styled.section`
        border-radius: 0;
        .container{
         flex-direction: column;
-        margin: 0;
         padding: 2rem;
         gap: 2rem;
         justify-content: center;
         align-items: center;
         .content{
+            margin: 0;
             h1{
-                font-size: 2.5rem;
+                font-size: 2rem !important;
                 span{
                     img{
                         height: 2rem;
@@ -162,7 +162,7 @@ const Section = styled.section`
         .data{
             justify-content: center;
             align-items: center;
-            gap: 2rem;
+            gap: 2rem !important;
         }
         .image{
             img{
