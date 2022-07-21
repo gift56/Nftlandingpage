@@ -44,13 +44,25 @@ const Marketplace = () => {
         {
             image: marketplace8,
             name: "Joshua-jay"
-        },
+        }
+    ];
+    const marketPlaceType = [
+        "All",
+        "Art",
+        "Generic",
+        "Common",
+        "Trading",
+        "Rare"
     ]
     return (
-        <div>
+        <Section>
 
-        </div>
+        </Section>
     )
 }
 
-export default Marketplace
+export default Marketplace;
+
+const Section = styled.section`
+
+`;
