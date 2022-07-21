@@ -65,8 +65,17 @@ const Marketplace = () => {
                 </p>
             </div>
             <div className="marketPlaceTypes">
-                {marketPlaceType.map(({ text, index }) => (
-                    <Buttons text={text} />
+                {marketPlaceType.map(({ text }, index) => (
+                    <Buttons text={text} key={index} blue={index === 0} />
+                ))}
+            </div>
+            <div className="marketPlaces">
+                {marketPlaceData.map((market, index) => (
+                    <div className="marketPlace" key={index}>
+                        <div className="image">
+                            <img src={market.image} alt="" />
+                        </div>
+                    </div>
                 ))}
             </div>
         </Section>
