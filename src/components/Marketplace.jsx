@@ -94,5 +94,8 @@ const Marketplace = () => {
 export default Marketplace;
 
 const Section = styled.section`
-
+         display: flex;
+         flex-direction: column;
+         gap: 5rem;
+         margin: 0 6rem;
 `;
