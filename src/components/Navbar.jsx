@@ -13,7 +13,16 @@ const Navbar = () => {
             <div className="brand">
                 <img src={Logo} alt="logo" />
             </div>
-            <div className="toggle"></div>
+            <div className="toggle">
+                {isNavOpen ? (
+                    <FaTimes onClick={() => setIsNavOpen(false)} />
+                ) : (
+                    <FaBars onClick={(e) => {
+                        e.stopPropagation();
+                        setIsNavOpen(true)
+                    }} />
+                )}
+            </div>
             <div className="links">
                 <ul>
                     <li>
