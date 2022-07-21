@@ -12,7 +12,7 @@ const Home = () => {
             <div className="ellipse"></div>
             <div className="container">
                 <div className="content">
-                    <h1 className='headingTxt'>
+                    <h1>
                         <div>
                             <span>Explore Our</span>
                             <span>
