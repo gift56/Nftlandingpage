@@ -5,9 +5,9 @@ import subcribe from '../assets/subscribe.png';
 
 const Subcribe = () => {
     return (
-        <div>
+        <Section>
 
-        </div>
+        </Section>
     )
 }
 
