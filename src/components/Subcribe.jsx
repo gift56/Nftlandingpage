@@ -44,5 +44,14 @@ const Section = styled.section`
             color: #7b7e86;
             line-height: 2rem;
         }
+        .input-container {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               padding: 0 5rem;
+               width: max-content;
+               gap: 1rem;
+               border: 1px solid #c4c4c4;
+        }
      }
 `;
