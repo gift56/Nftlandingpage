@@ -44,9 +44,14 @@ const Footer = () => {
                 </div>
             </div>
             <div className="row">
-                <h3></h3>
+                <h3>Our Service</h3>
+                <ul className="list">
+                    {servicesLinks.map((link)=>(
+                        <li key={link}>{link}</li>
+                    ))}
+                </ul>
             </div>
-            
+
         </div>
     )
 }
