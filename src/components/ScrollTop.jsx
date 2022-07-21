@@ -32,5 +32,14 @@ const Div = styled.div`
         background-color: #2d69fd;
         padding: 1rem;
         border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s ease-in-out;
+        z-index: 25;
+        svg{
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
     }
 `;
