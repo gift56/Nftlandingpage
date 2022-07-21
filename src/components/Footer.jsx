@@ -10,6 +10,17 @@ import Logo from '../assets/logo.png';
 const Footer = () => {
     const servicesLinks = ["Art", "Common", "Trading", "Rare", "Genetic"];
     const companyLinks = ["Home", "About", "Marketplace", "Sellers", "Create"];
+
+    const contactInfo = [
+        {
+            icon: <MdEmail />,
+            value: "efeasiughu@gmail.com"
+        },
+        {
+            icon: <MdPhoneInTalk />,
+            value: "+234 123 568 9876"
+        },
+    ]
     return (
         <div>
 
