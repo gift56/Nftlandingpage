@@ -98,4 +98,9 @@ const Section = styled.section`
          flex-direction: column;
          gap: 5rem;
          margin: 0 6rem;
+         margin-bottom: 5rem;
+         .title{
+            display: flex;
+            flex-direction: column;
+         }
 `;
