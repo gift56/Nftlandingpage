@@ -120,7 +120,19 @@ const Nav = styled.nav`
             background-color:#ffffff;
             opacity: 0;
             visibility: hidden;
+            clip-path: none;
             transition: all .7s ease-in-out;
+            ul{
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                height: 100%;
+                li{
+                    a{
+                        color: #2d69fd;
+                    }
+                }
+            }
          }
    }
 `;
