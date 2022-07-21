@@ -52,6 +52,11 @@ const Section = styled.section`
                width: max-content;
                gap: 1rem;
                border: 1px solid #c4c4c4;
+               border-radius: 3rem;
+               input{
+                border: none;
+                outline: none;
+               }
         }
      }
 `;
