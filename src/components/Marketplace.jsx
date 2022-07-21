@@ -12,7 +12,16 @@ import marketplace7 from '../assets/marketplace7.png';
 import marketplace8 from '../assets/marketplace8.png';
 
 const Marketplace = () => {
-    
+    const marketPlaceData = [
+        {
+            image: marketplace1,
+            name: "Aiboi-meta"
+        },
+        {
+            image: marketplace2,
+            name: "Pedram-mohamm..."
+        },
+    ]
     return (
         <div>
 
