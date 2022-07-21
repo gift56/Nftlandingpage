@@ -39,7 +39,11 @@ const Section = styled.section`
         justify-content: center;
         gap: 3rem;
         h2 {
-         font-size: 4rem;
+         font-size: 4.5rem;
+        }
+        p{
+            color: #7b7e86;
+            line-height: 2rem;
         }
      }
 `;
