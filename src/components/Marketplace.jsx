@@ -21,6 +21,30 @@ const Marketplace = () => {
             image: marketplace2,
             name: "Pedram-mohamm..."
         },
+        {
+            image: marketplace3,
+            name: "Pedram-mohamm..."
+        },
+        {
+            image: marketplace4,
+            name: "Pedram-mohamm..."
+        },
+        {
+            image: marketplace5,
+            name: "Pedram-mohamm..."
+        },
+        {
+            image: marketplace6,
+            name: "Pedram-mohamm..."
+        },
+        {
+            image: marketplace7,
+            name: "Pedram-mohamm..."
+        },
+        {
+            image: marketplace8,
+            name: "Pedram-mohamm..."
+        },
     ]
     return (
         <div>
