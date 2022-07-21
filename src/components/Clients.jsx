@@ -28,4 +28,9 @@ const Section = styled.section`
     align-items: center;
     margin: 0 2rem;
     margin-bottom: 5rem;
+
+    @media screen  and (max-width: 1080px){
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
 `;
