@@ -101,6 +101,16 @@ const Nav = styled.nav`
             padding-right: 1rem;
             display: block;
             z-index: 51;
+            svg{
+                color: #2d69fd;
+            }
+         }
+         .show{
+            opacity: 1 !important;
+            visibility: visible !important;
+         }
+         .links{
+            z-index: 50;
          }
    }
 `;
