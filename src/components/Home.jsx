@@ -12,10 +12,10 @@ const Home = () => {
             <div className="ellipse"></div>
             <div className="container">
                 <div className="content">
-                    <h1>Explore Our Hero
+                    <h1>Explore Our
                         <span>
                             <img src={Herotext} alt="heroText" />
-                        </span>
+                        </span> Hero
                         Text Digital NFT Market Place
                     </h1>
                     <p>
@@ -100,7 +100,20 @@ const Section = styled.section`
                       display: flex;
                       flex-direction: column;
                       gap: 1rem;
+                      h2 {
+                        color: #fff;
+                        font-size: 2rem;
+                      }
+                      h5 {
+                         text-align: center;
+                         color: #a6a6a6;
+                      }
                 }
+            }
+        }
+        .image{
+            img{
+                height: 40rem;
             }
         }
     }
