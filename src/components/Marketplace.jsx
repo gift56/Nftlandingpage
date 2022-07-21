@@ -56,7 +56,13 @@ const Marketplace = () => {
     ]
     return (
         <Section>
-            MarketPlace
+            <div className="title">
+                <h2>NFT Marketplace</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi dolor animi laudantium tempora.
+                </p>
+            </div>
         </Section>
     )
 }
