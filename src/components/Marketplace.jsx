@@ -31,19 +31,19 @@ const Marketplace = () => {
         },
         {
             image: marketplace5,
-            name: "Pedram-mohamm..."
+            name: "Justine-florentino"
         },
         {
             image: marketplace6,
-            name: "Pedram-mohamm..."
+            name: "Hoang-1-p-solan"
         },
         {
             image: marketplace7,
-            name: "Pedram-mohamm..."
+            name: "Joshua-jay"
         },
         {
             image: marketplace8,
-            name: "Pedram-mohamm..."
+            name: "Joshua-jay"
         },
     ]
     return (
