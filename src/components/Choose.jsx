@@ -64,7 +64,7 @@ const Section = styled.section`
             justify-content: center;
             align-items: center;
             img{
-                height: 50vw;
+                height: 50vh;
             }
         }
         .content{

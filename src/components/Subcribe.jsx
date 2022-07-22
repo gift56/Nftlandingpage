@@ -87,7 +87,7 @@ const Section = styled.section`
             justify-content: center;
             align-items: center;
             img{
-                height: 80vw;
+                height: 50vh;
             }
         }
         .content{
