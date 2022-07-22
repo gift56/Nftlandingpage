@@ -56,12 +56,12 @@ const Section = styled.section`
         margin-bottom: 5rem;
         .title {
             text-align: center;
-            h2{
+            h2 {
                 font-size: 2rem;
                 margin-bottom: 4rem;
             }
         }
-        .container{
+        .container {
             background-color: #232835;
             padding: 5rem;
             border-radius: 1rem;
