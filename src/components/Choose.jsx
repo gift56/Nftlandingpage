@@ -78,4 +78,9 @@ const Section = styled.section`
             }
         }
      }
+     @media screen and (max-width:400px){
+        h2{
+                font-size: 15px;
+        }
+     }
 `;
