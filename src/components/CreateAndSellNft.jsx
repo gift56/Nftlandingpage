@@ -104,10 +104,13 @@ const Section = styled.section`
                 }
             }
             .container{
-                padding: 1rem;
+                padding: 12px;
                 .content{
                     flex-direction: column;
                     gap: 1rem;
+                    .createAndSell{
+                        padding: 1rem;
+                    }
                 }
             }
         }
