@@ -65,7 +65,7 @@ const Section = styled.section`
             background-color: #232835;
             padding: 5rem;
             border-radius: 1rem;
-            .content{
+            .content {
                 display: flex;
                 gap: 3rem;
                 .createAndSell {
@@ -87,10 +87,10 @@ const Section = styled.section`
                             height: 2rem;
                           }
                         }
-                        h3{
+                        h3 {
                             color: #ffff;
                         }
-                        p{
+                        p {
                             color: #c8c4cf;
                         }
                 }
@@ -98,12 +98,12 @@ const Section = styled.section`
         }
         @media screen  and (max-width: 1080px){
             margin: 1rem;
-            .title{
-                h2{
+            .title {
+                h2 {
                     font-size: 1.5rem;
                 }
             }
-            .container{
+            .container {
                 padding: 1rem;
                 .content{
                     flex-direction: column;
@@ -111,8 +111,8 @@ const Section = styled.section`
                 }
             }
         }
-        @media screen  and (max-width:400px){
-            .container{
+        @media screen  and (max-width:400px) {
+            .container {
                 padding: 12px !important;
             }
             .createAndSell {
