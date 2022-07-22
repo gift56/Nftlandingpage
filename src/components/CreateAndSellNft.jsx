@@ -104,14 +104,19 @@ const Section = styled.section`
                 }
             }
             .container{
-                padding: 12px;
+                padding: 1rem;
                 .content{
                     flex-direction: column;
                     gap: 1rem;
-                    .createAndSell{
-                        padding: 1rem;
-                    }
                 }
             }
+        }
+        @media screen  and (max-width:400px){
+            .container{
+                padding: 12px;
+            }
+            .createAndSell {
+                        padding: 1rem;
+             }
         }
 `;
