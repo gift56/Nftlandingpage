@@ -95,7 +95,7 @@ const Container = styled.footer`
          .social-icons{
             display: flex;
             gap: 1rem;
-            .icon{
+            .icon {
                 border: 1px solid #2d68fd7f;
                 padding: 0.2rem;
                 display: flex;
@@ -109,15 +109,15 @@ const Container = styled.footer`
                 }
             }
           }
-          ul{
+          ul {
             list-style: none;
             display: flex;
             flex-direction: column;
             gap: 1rem;
-            li{
+            li {
                 display: flex;
                 gap: 2rem;
-                .icon{
+                .icon {
                     border: 1px solid #2d68fd7f;
                     padding: 0.2rem;
                     display: flex;
@@ -133,7 +133,7 @@ const Container = styled.footer`
             }
           }
         }
-        @media screen  and (max-width:1080px){
+        @media screen  and (max-width:1080px) {
             grid-template-columns: 1fr;
             padding: 2rem;
             gap: 2rem;
