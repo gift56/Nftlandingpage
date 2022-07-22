@@ -97,7 +97,7 @@ const Section = styled.section`
             }
         }
         @media screen  and (max-width: 1080px){
-            margin: 2rem;
+            margin: 1rem;
             .title{
                 h2{
                     font-size: 1.5rem;
