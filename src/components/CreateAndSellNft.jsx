@@ -113,10 +113,10 @@ const Section = styled.section`
         }
         @media screen  and (max-width:400px){
             .container{
-                padding: 12px;
+                padding: 12px !important;
             }
             .createAndSell {
-                        padding: 1rem;
+                        padding: 1rem !important;
              }
         }
 `;
