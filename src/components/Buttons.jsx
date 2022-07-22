@@ -23,6 +23,9 @@ const Div = styled.div`
     :not(.blue) {
           background: transparent;
           border: 1px solid #fff;
+          &:hover{
+            color: #2d69fd;
+          }
     }
    }
    .blue {

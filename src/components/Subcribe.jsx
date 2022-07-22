@@ -63,6 +63,7 @@ const Section = styled.section`
                svg { 
                  font-size: 3rem;
                  color: #2d69fd;
+                 cursor: pointer;
                }
         }
      }
