@@ -23,7 +23,7 @@ const Home = () => {
                         <div><span> NFT Market Place</span></div>
                     </h1>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit
                         Ad eum dolor architecto assumenda perferendis temporibus.
                     </p>
                     <div className="buttons">
