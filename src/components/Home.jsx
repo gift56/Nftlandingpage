@@ -125,12 +125,12 @@ const Section = styled.section`
         }
     }
     @media screen and (max-width:1340px){
-        h1{
+        h1 {
             font-size: 3rem !important;
             gap: 0.5px !important;
         }
-        .image{
-           img{
+        .image {
+           img {
             height: 30rem;
             }
         }
