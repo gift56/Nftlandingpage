@@ -160,13 +160,13 @@ const Section = styled.section`
             justify-content: center;
             align-items: center;
         }
-        .data{
+        .data {
             justify-content: center;
             align-items: center;
             gap: 2rem !important;
         }
-        .image{
-            img{
+        .image {
+            img {
                 height: 15rem;
             }
         }
