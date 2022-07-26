@@ -119,7 +119,7 @@ const Section = styled.section`
             }
         }
         .image {
-            img{
+            img {
                 height: 40rem;
             }
         }
