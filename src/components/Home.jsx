@@ -118,7 +118,7 @@ const Section = styled.section`
                 }
             }
         }
-        .image{
+        .image {
             img{
                 height: 40rem;
             }
