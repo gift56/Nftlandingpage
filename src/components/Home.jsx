@@ -138,15 +138,15 @@ const Section = styled.section`
     @media screen  and (max-width: 1080px){
        margin: 0;
        border-radius: 0;
-       .container{
+       .container {
         flex-direction: column;
         padding: 2rem;
         gap: 2rem;
         justify-content: center;
         align-items: center;
-        .content{
+        .content {
             margin: 0;
-            h1{
+            h1 {
                 font-size: 2rem !important;
                 span{
                     img{
