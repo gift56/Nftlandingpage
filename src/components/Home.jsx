@@ -148,14 +148,14 @@ const Section = styled.section`
             margin: 0;
             h1 {
                 font-size: 2rem !important;
-                span{
-                    img{
+                span {
+                    img {
                         height: 2rem;
                     }
                 }
             }
         }
-        .buttons{
+        .buttons {
             flex-direction: column;
             justify-content: center;
             align-items: center;
